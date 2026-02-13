@@ -7,7 +7,7 @@ function App() {
   const [status, setStatus] = useState('typing');
 
   if (status === 'success') {
-    return <p>That's correct!</p>
+    return <p className='res'>That's correct!</p>
   }
 
   async function handleSubmit(e) {
@@ -42,7 +42,7 @@ function App() {
         <button disabled={
           answer.length === 0 || status === 'submitting'
         }>Submit</button>
-        {error !== null && <p className="Error">{error.message}</p>}
+        {error && <p className="Error">{error.message}</p>}
       </form>
     </>
   );

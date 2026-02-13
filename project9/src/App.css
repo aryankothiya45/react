@@ -1,0 +1,15 @@
+.Error{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.res {
+  font-size: 20px;
+  font-weight: 600;
+  color: #0a58ca;
+  background: linear-gradient(135deg, #e0f0ff, #ffffff);
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 15px;
+}

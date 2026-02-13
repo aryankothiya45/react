@@ -1,0 +1,102 @@
+/* ===== Global Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===== Background ===== */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* ===== Main Container ===== */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+/* Wrapper Card */
+label,
+ul {
+  width: 380px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 12px 16px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== Contact Card ===== */
+li {
+  background: white;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: all 0.25s ease;
+}
+
+li:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
+/* ===== Name Styling ===== */
+p {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+b {
+  color: #333;
+}
+
+/* ===== Email ===== */
+i {
+  font-size: 14px;
+  color: #666;
+}
+
+/* ===== Button ===== */
+button {
+  padding: 7px 14px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(118, 75, 162, 0.4);
+}
+
+button:active {
+  transform: scale(0.96);
+}
+
+/* ===== Checkbox Styling ===== */
+input[type="checkbox"] {
+  accent-color: #ffffff;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
